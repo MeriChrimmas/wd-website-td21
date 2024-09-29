@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+a{
+    color: teal;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    background-color: teal ;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem .5rem;
+}
+
+.logo{
+    width:5rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: .5rem; 
+}
+.btn{
+    border: 1px black solid;
+    padding: 1rem;
+    border-radius: 10px;
+    
+    &.active {
+        background-color: aqua;
+
+        & p{
+            color: black;
+        }
+    }
+}
+
+.miska{
+    height: 298dvh;
+    background: linear-gradient(#5DE0E6 25%, #004AAD 75% )       ;
+}
+.top{
+    width: 70rem;
+    padding: 7rem 0;
+}
+
+.bottom{
+    width: 113rem;
+    justify-content: flex-end;
+}
