@@ -8,6 +8,7 @@
 a{
     color: teal;
     text-decoration: none;
+    
 }
 
 .header{
@@ -16,6 +17,7 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: .3rem .5rem;
+    border: 2px #8d6bfe solid;
 }
 
 .logo{
@@ -24,12 +26,14 @@ a{
 nav{
     display: flex;
     justify-content: center;
-    gap: .5rem; 
+    gap: .5rem;
 }
 .btn{
     border: 1px black solid;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
     
     &.active {
         background-color: aqua;
@@ -40,6 +44,11 @@ nav{
     }
 }
 
+
+
+
+
+
 .miska{
     height: 298dvh;
     background: linear-gradient(#5DE0E6 25%, #004AAD 75% )       ;
@@ -47,9 +56,33 @@ nav{
 .top{
     width: 70rem;
     padding: 7rem 0;
+    margin-right: 6rem;
 }
 
+.info{
+    padding: 0;
+   
+    h1{
+        color: black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        float: right ;
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-align: center;
+        height: calc(5dvh - 10rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:1rem 1rem;
+        
+    }
+
+}
 .bottom{
-    width: 113rem;
+    width: 95rem;
     justify-content: flex-end;
+}
+.mooska{
+    height: 200dvh;
+    background: linear-gradient(#004AAD 25%, #03276e 75% )       ;
 }
