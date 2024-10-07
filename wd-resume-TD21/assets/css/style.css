@@ -53,6 +53,7 @@ nav{
     height: 298dvh;
     background: linear-gradient(#5DE0E6 25%, #004AAD 75% )       ;
 }
+
 .top{
     width: 70rem;
     padding: 7rem 0;
@@ -78,10 +79,12 @@ nav{
     }
 
 }
+
 .bottom{
     width: 95rem;
     justify-content: flex-end;
 }
+
 .mooska{
     height: 200dvh;
     background: linear-gradient(#004AAD 25%, #03276e 75% )       ;
